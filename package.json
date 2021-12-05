@@ -1,0 +1,21 @@
+{
+    "name": "123pwsh",
+    "displayName": "123PwSh",
+    "publisher": "holgerimbery",
+    "description": "an extension pack for mastering Powershell Core",
+    "icon": "assets/logo256x256.png",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/holgerimbery/123PwSh"},
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "azps-tools.azps-tools",
+        "ms-vscode.PowerShell"
+    ]
+}
